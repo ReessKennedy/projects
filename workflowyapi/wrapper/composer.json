@@ -1,0 +1,36 @@
+{
+    "name": "johansatge/workflowy-php",
+    "description": "An unofficial WorkFlowy API",
+    "version": "0.1.2",
+    "minimum-stability": "stable",
+    "type": "library",
+    "keywords": [
+        "workflowy",
+        "php",
+        "api"
+    ],
+    "homepage": "https://github.com/johansatge/workflowy-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johan Satgé",
+            "homepage": "http://johansatge.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/johansatge/workflowy-php/issues",
+        "source": "https://github.com/johansatge/workflowy-php"
+    },
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "WorkFlowyPHP\\": "src/"
+        },
+        "psr-0": {
+            "WorkFlowyPHP": "src/"
+        },
+        "classmap": [],
+        "files": []
+    }
+}
