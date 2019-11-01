@@ -1,0 +1,17 @@
+<?php
+
+$date_created = '';
+$date_modified = '';
+
+$post_title = '';
+$post_body = '';
+
+$tax_categories = '';
+$tax_tags = '';
+$tax_source = '';
+$tax_person = '';
+
+$image_body = '';
+$image_featured = '';
+
+?>

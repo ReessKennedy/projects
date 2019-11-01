@@ -1,0 +1,101 @@
+/* tables */
+html body div table.tablesorter {
+    border-collapse: separate;
+    border-spacing: 1px;
+    line-height: 12px;
+}
+html body div table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+	
+}
+html body div table.tablesorter thead tr th, body table.tablesorter tfoot tr th {
+	xbackground-color: #e6EEEE;
+	background-color: #94B2CE;
+	border: 1px solid #FFF;
+	font-size: 7pt;
+	padding: 4px 14px 4px 2px;
+}
+html body div table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+html body div table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+	line-height: 14px;
+}
+html body div table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+	xbackground-color: #94B2CE;
+}
+html body div table.tablesorter.alternate tbody tr.odd td {
+	background-color:#99ccff;
+	xbackground-color: #94B2CE;
+}
+html body div table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+html body div table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+html body div table.tablesorter thead tr .headerSortDown, html body div table.tablesorter thead tr .headerSortUp {
+	xbackground-color: #8dbdd8;
+	background-color: #2a659d;
+	color: #fff;
+}
+html body table.tablesorter tbody tr.broadcast.odd td, html body table.tablesorter tbody tr.broadcast.even td,
+td.box.broadcast
+{
+	background-color: #058DC7;
+	background: #058DC7;
+	color: #fff;
+}
+html body table.tablesorter tbody tr.cable.odd td, html body table.tablesorter tbody tr.cable.even td,
+td.box.ad
+{
+	background-color: #50B432;
+	background: #50B432;
+	color: #fff;
+}
+html body table.tablesorter tbody tr.tun.odd td, html body table.tablesorter tbody tr.tun.even td,
+td.box.spanish
+{
+	xbackground-color: #ED561B;
+	background-color: #058DC7;
+	xbackground: #ED561B;
+	background-color: #058DC7;
+	color: #fff;
+}
+html body table.tablesorter tbody tr.premium.odd td, html body table.tablesorter tbody tr.premium.even td,
+td.box.premium
+{
+	background-color: #DDDF00;
+	background: #DDDF00;
+	color: #fff;
+}
+table.legend {
+	margin: 0px 0px 20px 0px;
+}
+table.legend td.box {
+	width: 15px;
+	height: 15px;
+}
+
+table.legend {
+	font-size: 12px;
+	width: 140px;
+}
+.legendwrap {
+	float: right;
+	margin: 0px 0px 0px 15px;
+}
+

@@ -5,7 +5,7 @@ use WorkFlowyPHP\WorkFlowy;
 use WorkFlowyPHP\WorkFlowyException;
 try
 {
-    $session_id = WorkFlowy::login('wfemailnew@gmail.com', 'wf#pass5%2');
+    $session_id = WorkFlowy::login('email@gmail.com', 'password');
 }
 catch (WorkFlowyException $e)
 {
